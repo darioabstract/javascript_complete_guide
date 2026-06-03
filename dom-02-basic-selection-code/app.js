@@ -9,11 +9,9 @@ li.textContent = li.textContent + ' (Changed!)';
 
 const body = document.body;
 
-
-// const listItemelements = document.querySelectorAll('li');
-
+// const listItemElements = document.querySelectorAll('li');
 const listItemElements = document.getElementsByTagName('li');
 
 for (const listItemEl of listItemElements) {
-    console.dir(listItemEl);
+  console.dir(listItemEl);
 }
